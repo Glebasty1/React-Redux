@@ -1,16 +1,18 @@
+import { ADD, SUBTRACT } from "../constants/Page.js"
+
 /*
  * action creators
  */
 export function addNumber(number) {
     return {
-        type: "ADD",
+        type: ADD,
         payload: number
     };
 }
 
 export function subtractNumber(number) {
     return {
-        type: "SUBTRACT",
+        type: SUBTRACT,
         payload: number
     };
 }
